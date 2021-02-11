@@ -127,11 +127,11 @@ func checkIfAvailable(n string, wg *sync.WaitGroup) {
 	}
 
 	availableNames = append(availableNames, n)
+	fmt.Println(n + " is available")
 }
 
 func registerAccount(n string, wg *sync.WaitGroup) {
-	time.Sleep(60 * time.Second)
-	fmt.Println("reg called")
+	fmt.Println("Attempting to register " + n)
 	defer wg.Done()
 
 	data := register{

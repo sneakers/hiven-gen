@@ -1,5 +1,5 @@
 {
-    "captcha_api_key": "API KEY HERE",
+    "captcha_api_key": "",
     "catchall": "example.com",
     "name": "hiven-gen",
     "password": "HivenGen123$"
